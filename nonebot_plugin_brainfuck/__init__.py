@@ -1,5 +1,5 @@
 from nonebot import  on_startswith
-from nonebot.adapters.onebot.v12 import GroupMessageEvent
+from nonebot.adapters.onebot.v11 import GroupMessageEvent
 from nonebot.plugin import PluginMetadata
 from brainfuck_interpreter import call
 from nonebot.matcher import Matcher

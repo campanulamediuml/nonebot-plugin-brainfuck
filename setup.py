@@ -18,7 +18,7 @@ setup(
         description='a brainfuck interpreter for nonebot',
         # 简短描述
         license='MIT',
-        long_description=read_file("README.md"),
+        long_description='a brainfuck interpreter for nonebot',
         author='campanula',
         author_email='campanulamediuml@gmail.com',
         platforms='any',
@@ -36,3 +36,5 @@ setup(
         packages=find_packages(),
         python_requires='>=3.6',
     )
+
+
