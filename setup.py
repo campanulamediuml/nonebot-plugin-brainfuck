@@ -14,7 +14,7 @@ def read_file(fname):
 setup(
         # 以下为必需参数
         name='nonebot-plugin-brainfuck',  # 模块名
-        version='1.0.2',  # 当前版本
+        version='1.0.3',  # 当前版本
         description='a brainfuck interpreter for nonebot',
         # 简短描述
         license='MIT',
