@@ -14,7 +14,7 @@ def read_file(fname):
 setup(
         # 以下为必需参数
         name='nonebot-plugin-brainfuck',  # 模块名
-        version='1.0.1',  # 当前版本
+        version='1.0.2',  # 当前版本
         description='a brainfuck interpreter for nonebot',
         # 简短描述
         license='MIT',
@@ -31,8 +31,8 @@ setup(
         ],
         url='https://github.com/campanulamediuml/nonebot-plugin-brainfuck',
         install_requires=[
-            "nonebot2>=2.0.0",
-            "nonebot-adapter-onebot>=2.0.0"
+            'nonebot-adapter-onebot>=2.0.0-beta.1,<3.0.0',
+            'nonebot2>=2.0.0-beta.1,<3.0.0'
         ],
         include_package_data=True,
         zip_safe=True,
