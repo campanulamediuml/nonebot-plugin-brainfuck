@@ -4,7 +4,7 @@
 import struct
 from typing import List, Dict, Optional
 
-import error_info
+from . import error_info
 
 MOVE_L = '<'
 MOVE_R = '>'
